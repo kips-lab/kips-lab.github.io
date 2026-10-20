@@ -16,11 +16,14 @@ GitHub Pages should publish `main` from the repository root (`/`). Pushes to `ma
 
 The roster, research interests, alumni records, visitor dates and group photographs were migrated from https://sejdino.github.io/group/ on 19 October 2026. Dino Sejdinovic's faculty title and affiliation come from https://sejdino.github.io/. Alumni career details are historical group records, not an independently maintained employment directory.
 
-The portraits and group photographs are optimized copies of the existing images in `sejdino/sejdino.github.io/img`. The page retains its navy header, introductory panel, faculty card and member-card layout, using straightforward headings and the original group content. Alumni use compact, native expandable rows with all recorded thesis and subsequent-role details. No EPIC Lab code or person assets are included.
+The portraits and group photographs are optimized copies of the existing images in `sejdino/sejdino.github.io/img`. The page retains its navy header, introductory panel, faculty card and member-card layout. The four primary sections are News, Team, Research and Greater KIPS. Greater KIPS groups Alumni, Visitors and Group photos, using a nested heading structure. Alumni use compact, native expandable rows with all recorded thesis and subsequent-role details. No EPIC Lab code or person assets are included.
 
 Known source-link updates: the former Julien Lenhardt (Leipzig) and Gianni Franchi (ENSTA) pages returned 404 and were replaced with their verified SMHI and personal pages. Oxford CSML profile links use their HTTPS destinations. Yihe Chen has no public profile URL in the source, so no profile link is invented.
 
-The workshop link points only to the public FIMI Down Under site.
+The workshop link points only to the public FIMI Down Under site and appears in News, not the header or footer.
 
-The KIPS logo is a refined version of the user-provided circuit-style logo. The header and favicon use size-optimized copies; the wordmark and image proportions are unchanged.
+To add a news announcement, append a `li.news-item` inside `ul.news-list` in the News section. Use confirmed announcement text and source links; the existing FIMI item shows the structure. Use a `time` element with an ISO date when an event date is included.
+
+The KIPS logo is a refined version of the user-provided circuit-style logo. The header, introduction and favicon use size-optimized copies; the wordmark and image proportions are unchanged.
+
 
